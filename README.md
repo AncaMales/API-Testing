@@ -35,3 +35,30 @@ api.openweathermap.org/data/2.5/forecast?q=***{city name},{state code},{country 
 - **fetch_all** represents the parameter that gets all users
 
 ![Read](https://user-images.githubusercontent.com/117184407/202184538-4607ef5c-9b59-4483-8dd2-e38ce4b48b38.png)
+
+**Create** using POST method
+- adding user with first name and last name
+
+**Parameters**
+- **insert** insert user
+- **first_name** represents the first name
+- **last_name** represents the last name
+![Create](https://user-images.githubusercontent.com/117184407/202187273-9cf1839d-6d1b-4b20-a668-6426c4a7529a.png)
+
+The result in the database:
+
+![Create result](https://user-images.githubusercontent.com/117184407/202187648-bfccb3e3-1315-4b1d-b5ca-32fd92fff155.png)
+
+**Update** using POST method
+- updated the user name
+
+**Parameters**
+- **id** the id of the user whose name it will be updated
+- **first_name** represents the first name
+- **last_name** represents the last name
+
+![Update](https://user-images.githubusercontent.com/117184407/202188642-d5869ef2-9c50-4686-955c-8e39bf40ac54.png)
+
+The result in the database:
+
+![Update result](https://user-images.githubusercontent.com/117184407/202188909-44b679c8-357e-4265-b230-a9562587fd98.png)
