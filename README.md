@@ -2,7 +2,7 @@
 In this repository are some API Testing that I realized in my self-taught studies. The tool that I used is Postman.
 
 ----
-#### Weather Forecast API Testing
+### ***Weather Forecast API Testing***
 API request for weather forecast for 5 days with data every 3 hours by city name.
 
 **API call**
@@ -26,7 +26,7 @@ api.openweathermap.org/data/2.5/forecast?q=***{city name},{state code},{country 
 
 ---
 
-#### CRUD operations testing
+### ***CRUD operations testing***
 
 ***Read*** using GET method
 - read all the users from the database
@@ -80,7 +80,7 @@ The result in the database:
 
 ---
 
-***OMDb API testing***
+### ***OMDb API testing***
 - The OMDb API is a RESTful web service to obtain movie information
 
 **Parameters** for "Search movie by Title" action
@@ -92,7 +92,7 @@ The result in the database:
 
 **Parameters** for "Search movie by IMDb ID" action
 - **apikey** represents the unique API key generated on https://www.omdbapi.com/ after the user creates an account
-- **i** represents the title of the movie searched
+- **i** represents the IMDb ID of the movie searched
 
 ![Search movie by ID](https://user-images.githubusercontent.com/117184407/202195433-f4272e38-5f43-4040-b130-f7bcb4b6eaed.png)
 ---
@@ -109,7 +109,7 @@ The result in the database:
 
 ---
 
-***NewsAPI testing***
+### ***NewsAPI testing***
 There are two endpoints: 
 - "Everything" endpoint which will search through millions of articles from over 80,000 large and small news sources and blogs.
 - "Top headlines" endpoint which provides live top and breaking headlines for a country, specific category in a country, single source, or multiple sources. You can also search with keywords. Articles are sorted by the earliest date published first.
