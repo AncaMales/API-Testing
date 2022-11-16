@@ -100,5 +100,8 @@ The result in the database:
 - **plot** returns short or full plot.
 - **r** represents the the data type to return.
 
-![Search movie by Title:Type:Year:Plot:Data type](https://user-images.githubusercontent.com/117184407/202196875-2bc083bf-ce5f-4a60-9d45-5f0d1235d256.png)
+![Search movie by Title:Type:Year:Plot:Data type](https://user-images.githubusercontent.com/117184407/202197202-c8bd3a41-d9e7-4167-80f4-ec1d8e725a42.png)
+
+---
+
 
