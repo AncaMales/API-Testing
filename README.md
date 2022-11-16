@@ -69,7 +69,7 @@ The result in the database:
 
 **Parameters**
 - **action** with the value **delete**
-- **id** the id of the user whose name it will be deleted
+- **id** the id of the user whose name it will be deleted, so the user "Margaret Thatcher" will be deleted.
 
 ![Delete](https://user-images.githubusercontent.com/117184407/202190477-a5a07d43-b8f0-4458-b2da-98c29854c726.png)
 The result in the database:
