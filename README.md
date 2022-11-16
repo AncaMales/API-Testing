@@ -75,4 +75,30 @@ The result in the database:
 The result in the database:
 ![Delete result](https://user-images.githubusercontent.com/117184407/202190541-f16863d2-04c3-403b-a7b3-2983d6b0cf9c.png)
 
+---
+
+***OMDb API testing***
+- The OMDb API is a RESTful web service to obtain movie information
+
+**Parameters** for "Search movie by Title" action
+- **apikey** represents the unique API key generated on https://www.omdbapi.com/ after the user creates an account
+- **t** represents the title of the movie searched
+
+![Search movie by title](https://user-images.githubusercontent.com/117184407/202195192-450eedf5-d91d-44e1-80e3-b8b187719d12.png)
+
+**Parameters** for "Search movie by IMDb ID" action
+- **apikey** represents the unique API key generated on https://www.omdbapi.com/ after the user creates an account
+- **i** represents the title of the movie searched
+
+![Search movie by ID](https://user-images.githubusercontent.com/117184407/202195433-f4272e38-5f43-4040-b130-f7bcb4b6eaed.png)
+
+**Parameters** for "Search movie by Title/Type/Year/Plot/Data type" action
+- **apikey** represents the unique API key generated on https://www.omdbapi.com/ after the user creates an account
+- **t** represents the title of the movie searched
+- **type** represents the type of the movie (movie, series, episode)
+- **y** represents the year of release.
+- **plot** returns short or full plot.
+- **r** represents the the data type to return.
+
+![Search movie by Title:Type:Year:Plot:Data type](https://user-images.githubusercontent.com/117184407/202196875-2bc083bf-ce5f-4a60-9d45-5f0d1235d256.png)
 
