@@ -28,7 +28,7 @@ api.openweathermap.org/data/2.5/forecast?q=***{city name},{state code},{country 
 
 #### CRUD operations testing
 
-**Read** using GET method
+***Read*** using GET method
 - read all the users from the database
 
 **Parameters**
@@ -36,7 +36,7 @@ api.openweathermap.org/data/2.5/forecast?q=***{city name},{state code},{country 
 
 ![Read](https://user-images.githubusercontent.com/117184407/202184538-4607ef5c-9b59-4483-8dd2-e38ce4b48b38.png)
 
-**Create** using POST method
+***Create*** using POST method
 - adding user with first name and last name
 
 **Parameters**
@@ -49,8 +49,8 @@ The result in the database:
 
 ![Create result](https://user-images.githubusercontent.com/117184407/202187648-bfccb3e3-1315-4b1d-b5ca-32fd92fff155.png)
 
-**Update** using POST method
-- updated the user name
+***Update*** using POST method
+- updating the user name
 
 **Parameters**
 - **id** the id of the user whose name it will be updated
@@ -62,3 +62,16 @@ The result in the database:
 The result in the database:
 
 ![Update result](https://user-images.githubusercontent.com/117184407/202188909-44b679c8-357e-4265-b230-a9562587fd98.png)
+
+***Delete*** using DELETE method
+- deleting an user from the database
+
+**Parameters**
+- **action** with the value **delete**
+- **id** the id of the user whose name it will be deleted
+
+![Delete](https://user-images.githubusercontent.com/117184407/202190477-a5a07d43-b8f0-4458-b2da-98c29854c726.png)
+The result in the database:
+![Delete result](https://user-images.githubusercontent.com/117184407/202190541-f16863d2-04c3-403b-a7b3-2983d6b0cf9c.png)
+
+
