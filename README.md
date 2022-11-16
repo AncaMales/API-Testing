@@ -11,13 +11,14 @@ api.openweathermap.org/data/2.5/forecast?q=***{city name},{state code},{country 
 
 **Parameters**
 
-**q** is required and represents the city name
+- **q** is required and represents the city name
 
-**appid** is required and represents the unique API key (than can always be found on the personal account page under the "API key" tab on https://openweathermap.org/)
+- **appid** is required and represents the unique API key (than can always be found on the personal account page under the "API key" tab on https://openweathermap.org/)
 
-**mode** is optional and represents the response format. JSON format is used by default.
+- **mode** is optional and represents the response format. JSON format is used by default.
 
-**cnt** is optional and represents the number of timestamps, which will be returned in the API response.
+- **cnt** is optional and represents the number of timestamps, which will be returned in the API response.
 
-Z
+- **units** is optional and represents the units of measurement. standard, metric and imperial units are available.
+- **lang** is optional and represents the language.
 
