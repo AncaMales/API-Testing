@@ -44,7 +44,7 @@ api.openweathermap.org/data/2.5/forecast?q=***{city name},{state code},{country 
 - **insert** insert user
 - **first_name** represents the first name
 - **last_name** represents the last name
-- 
+
 ![Create](https://user-images.githubusercontent.com/117184407/202192745-2bb3d27c-5e99-4436-afe2-b9986dcce595.png)
 
 The result in the database:
